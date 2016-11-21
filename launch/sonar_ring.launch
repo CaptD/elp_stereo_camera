@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="elp_stereo_camera" type="ultrasonic_0.py" name="ultrasonic_0" output="screen" />
+  <node pkg="elp_stereo_camera" type="ultrasonic_1.py" name="ultrasonic_1" output="screen" />
+  <node pkg="elp_stereo_camera" type="ultrasonic_2.py" name="ultrasonic_2" output="screen" />
+  <node pkg="elp_stereo_camera" type="ultrasonic_3.py" name="ultrasonic_3" output="screen" />
+  <node pkg="elp_stereo_camera" type="ultrasonic_4.py" name="ultrasonic_4" output="screen" />
+  <node pkg="elp_stereo_camera" type="ultrasonic_5.py" name="ultrasonic_5" output="screen" />
+</launch>
